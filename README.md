@@ -1,7 +1,7 @@
 # See it live here: https://ashleyvarma.github.io/XB-Intro/
 
 
-Credits:
+### Credits:
 	Demo Images:
 		Unsplash (unsplash.com)
 	Icons:
