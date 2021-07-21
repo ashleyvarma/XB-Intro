@@ -1,12 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
 
-/*
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -100,10 +94,10 @@ input, select, textarea {
 
 	body {
 		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #ff9966 25%, #899dec 75%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #ff9966 25%, #899dec 75%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #ff9966 25%, #899dec 75%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #ff9966 25%, #899dec 75%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #899dec 30%, black 70%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #899dec 30%, black 70%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #899dec 30%, black 70%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #899dec 30%, black 70%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2218,10 +2212,10 @@ input, select, textarea {
 
 	.icon {
 		text-decoration: none;
-		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-moz-transition: background-color 1s ease-in-out, color 1s ease-in-out;
+		-webkit-transition: background-color 1s ease-in-out, color 1s ease-in-out;
+		-ms-transition: background-color 2s ease-in-out, color 2s ease-in-out;
+		transition: background-color 1s ease-in-out, color 1s ease-in-out;
 		border-bottom: none;
 		position: relative;
 	}
@@ -2276,17 +2270,22 @@ input, select, textarea {
 			}
 
 		.icon.alt {
-			display: inline-block;
-			border: solid 1px;
-			border-radius: 50%;
+			display: block;
+			margin: auto;
+			justify-content: center;
+			border-radius: 40%;
+			padding-bottom: 5em;
 		}
 
 			.icon.alt:before {
-				display: inline-block;
-				font-size: 1.5em;
+				display: block;
+				margin: auto;
+				justify-content: center;
+				text-align: center;
+				border-radius: 40%;
+				font-size: 2em;
 				width: 2em;
 				height: 2em;
-				text-align: center;
 				line-height: 2em;
 				border-radius: 50%;
 			}
@@ -2315,6 +2314,10 @@ input, select, textarea {
 
 			.icon.major:before {
 				font-size: 5.5rem;
+				display: block;
+				margin: auto;
+				justify-content: center;
+				text-align: center;
 			}
 
 		}
@@ -2323,6 +2326,10 @@ input, select, textarea {
 
 			.icon.major:before {
 				font-size: 4.75rem;
+				display: block;
+				margin: auto;
+				justify-content: center;
+				text-align: center;
 			}
 
 		}
@@ -2336,6 +2343,10 @@ input, select, textarea {
 
 				.icon.major:before {
 					font-size: 3.5rem;
+					display: block;
+					margin: auto;
+					justify-content: center;
+					text-align: center;
 				}
 
 		}
@@ -2904,15 +2915,15 @@ input, select, textarea {
 			}
 
 			.statistics li.style3 {
-				background-color: #a89cc8;
+				background-color: #ffc200;
 			}
 
 			.statistics li.style4 {
-				background-color: #9bb2e1;
+				background-color: #8cc9f0;
 			}
 
 			.statistics li.style5 {
-				background-color: #8cc9f0;
+				background-color: #ff0028;
 			}
 
 			.statistics li strong, .statistics li b {
@@ -3113,15 +3124,15 @@ input, select, textarea {
 				-moz-transition-delay: 1s;
 				-webkit-transition-delay: 1s;
 				-ms-transition-delay: 1s;
-				transition-delay: 0.5s;
+				transition-delay: 1s;
 				opacity: 1;
 			}
 
 			#header.alt .logo {
-				-moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
-				-webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
-				-ms-transition: opacity 1.25s ease, -ms-transform 0.5s ease;
-				transition: opacity 1.25s ease, transform 0.5s ease;
+				-moz-transition: opacity 1.25s ease, -moz-transform 1.5s ease;
+				-webkit-transition: opacity 1.25s ease, -webkit-transform 1.5s ease;
+				-ms-transition: opacity 1.25s ease, -ms-transform 1.5s ease;
+				transition: opacity 1.25s ease, transform 1.5s ease;
 				-moz-transition-delay: 0s;
 				-webkit-transition-delay: 0s;
 				-ms-transition-delay: 0s;
@@ -3707,69 +3718,25 @@ input, select, textarea {
 	}
 
 		#footer > * {
-			width: calc(50% - 2em);
-			margin-left: 2em;
+			width: 100%;
 		}
 
 		#footer .copyright {
 			width: 100%;
-			margin: 2.5em 0 2em 0;
-			font-size: 0.8em;
+			margin: auto;
+			font-size: 0.85em;
 			text-align: center;
 		}
 
 		@media screen and (max-width: 1280px) {
 
 			#footer {
-				padding: 4em 4em 2em 4em ;
+				padding: 2em;
 			}
 
 		}
 
-		@media screen and (max-width: 980px) {
 
-			#footer {
-				padding: 4em 3em 2em 3em ;
-				display: block;
-				margin: 0 0 3em 0;
-				width: 100%;
-			}
-
-				#footer > * {
-					width: 100%;
-					margin-left: 0;
-					margin-bottom: 3em;
-				}
-
-				#footer .copyright {
-					text-align: left;
-				}
-
-		}
-
-		@media screen and (max-width: 736px) {
-
-			#footer {
-				padding: 3em 2em 1em 2em ;
-			}
-
-		}
-
-		@media screen and (max-width: 480px) {
-
-			#footer {
-				padding: 3em 1.5em 1em 1.5em ;
-			}
-
-		}
-
-		@media screen and (max-width: 480px) {
-
-			#footer {
-				padding: 2.5em 1em 0.5em 1em ;
-			}
-
-		}
 
 /* Wrapper */
 
