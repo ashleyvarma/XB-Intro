@@ -94,10 +94,10 @@ input, select, textarea {
 
 	body {
 		background-color: #4b2e83;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #899dec 30%, black 60%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #899dec 30%, black 60%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #899dec 30%, black 60%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #899dec 30%, black 60%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(30deg, #b5c1f3 30%, #5d79e5 40%, black 70%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(30deg, #b5c1f3 30%, #5d79e5 40%,  black 70%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(30deg, #b5c1f3 30%, #5d79e5 40%, black 70%);
+		background-image: url("images/overlay.png"), linear-gradient(30deg, #b5c1f3 30%, #5d79e5 40%, black 70%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -114,7 +114,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #4b2e83;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
